@@ -20,7 +20,7 @@ fi
 #sudo systemctl restart evebox.service
 
 ## replay pcap
-tcpreplay -i eth1 -x 12 ${PCAPFILE} > /dev/null 2>&1
+tcpreplay -i eth0 -x 12 ${PCAPFILE} > /dev/null 2>&1
 
 #print out alerts
 echo -e "\nAlerts:\n"
