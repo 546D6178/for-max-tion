@@ -36,7 +36,7 @@ then run the following command:
 ```
 
 
-## Ending
+## Stop the training env
 
 
 ```bash
