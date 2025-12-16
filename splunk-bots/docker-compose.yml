@@ -14,9 +14,9 @@ services:
 # BoTS Version 1
   bots1-complete:
     image: splunk/splunk:8.2.3
-    container_name: bots1
+    container_name: bots1-complete
     volumes:
-      - "./apps/botsv1:/tmp/apps"
+      - "./apps/botsv1-complete:/tmp/apps"
     environment:
       - SPLUNK_START_ARGS=--accept-license
       - SPLUNK_PASSWORD=changeme
